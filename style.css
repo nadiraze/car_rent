@@ -1,0 +1,103 @@
+body {
+    background-color: #F6F7F9;
+    padding: 150px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #fff;
+    width: 304px;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heart-icon {
+    color: #ED3F3F;
+    height: 20px;
+}
+
+.heart-icon:hover {
+    color: #3563E9;
+    height: 20px;
+}
+
+.title {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 20px;
+    color: #1A202C;
+}
+
+.subtitle {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #90A3BF;
+    margin-top: 10px;
+}
+
+.content {
+    padding-top: 66px;
+}
+
+.content-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-description p {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #90A3BF;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.footer p {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1A202C;
+}
+
+.footer span {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #90A3BF;
+}
+
+.footer button {
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    background: #3563E9;
+    border-radius: 4px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
